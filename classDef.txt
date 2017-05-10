@@ -1,0 +1,66 @@
+attributes:
+        fileList[]
+        fieldList[]
+        separatorList[]
+        
+methodes:
+        create
+        destroy
+        getFiles
+        addField
+        addSeparator
+        "compute"
+        
+        
+        
+SEQUENCE:
+        1) Open a folder                                                                        1
+        2) Take first file and print out example (fileString + Fields completion)               2
+        3) Select the different fields/separator and print out the results on the fields        2
+        4) "Compute"                                                                            3
+        
+        
+        
+        
+RANDOM THOUGHTS
+        => EVOLUTIONS
+                Reverse process
+                swap fields
+                "autocompletion"
+                
+                
+                
+                
+        =>SCREEN DISPLAY N°2:
+                ________________________________________________________________________________
+                |                                                                               |
+                |                                TITLE                                          |
+                |         /                   /                     \                    \      |
+                |     FIELD1  | SEPERATOR | FIELD2 | SEPERATOR  | FIELD3 | SEPERATOR | FIELD4   |
+                |                                                                               |
+                |                                                                               |
+                |        OLDFILEFIELDS                                 NEWFILEFIELDS            |
+                |                                                                               |
+                |                                                                               |
+                |         FIELDa                                           FIELDa               |
+                |                                                                               |
+                |         FIELDb                                           FIELDb               |
+                |                                                                               |
+                |         FIELDc                                           FIELDc               |
+                |                                                                               |
+                |         FIELDd                                           FIELDd               |
+                |                                                                               |
+                |         FIELDe                                           FIELDe               |
+                |                                                                               |
+                |                                                                               |
+                |                                                                               |
+                |                                                                               |
+                |                                                                               |
+                |                                                                               |
+                |       ABORT                                            COMPUTE                |
+                |_______________________________________________________________________________|
+                
+                
+                
+        => ANTICIPATED PROBLEMS
+                Display limit (overflow over the border) => make a slider/on multiple lines?
